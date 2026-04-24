@@ -1,0 +1,20 @@
+# > Bybit Global (Web & App)
+HOST-SUFFIX, bybit.com, Bybit
+HOST-SUFFIX, bytick.com, Bybit
+HOST-SUFFIX, byapps.net, Bybit
+HOST-SUFFIX, bybitapi.com, Bybit
+HOST-SUFFIX, bybit.cloud, Bybit
+HOST-SUFFIX, bybit-static.com, Bybit
+HOST-SUFFIX, bybit.io, Bybit
+HOST-SUFFIX, bybit.net, Bybit
+HOST-SUFFIX, bycsi.com, Bybit
+HOST-SUFFIX, by-csi.com, Bybit
+
+# > Bybit API & CDN (高优先级)
+HOST, api.bybit.com, Bybit
+HOST, api.bytick.com, Bybit
+HOST, stream.bybit.com, Bybit
+HOST, stream.bytick.com, Bybit
+HOST, static.bybit.com, Bybit
+
+

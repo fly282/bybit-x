@@ -1,0 +1,19 @@
+# > Bybit Global (Web & App)
+DOMAIN-SUFFIX,bybit.com,Bybit
+DOMAIN-SUFFIX,bytick.com,Bybit
+DOMAIN-SUFFIX,byapps.net,Bybit
+DOMAIN-SUFFIX,bybitapi.com,Bybit
+DOMAIN-SUFFIX,bybit.cloud,Bybit
+DOMAIN-SUFFIX,bybit-static.com,Bybit
+DOMAIN-SUFFIX,bybit.io,Bybit
+DOMAIN-SUFFIX,bybit.net,Bybit
+DOMAIN-SUFFIX,bycsi.com,Bybit
+DOMAIN-SUFFIX,by-csi.com,Bybit
+
+# > Bybit API & CDN
+DOMAIN,api.bybit.com,Bybit
+DOMAIN,api.bytick.com,Bybit
+DOMAIN,stream.bybit.com,Bybit
+DOMAIN,stream.bytick.com,Bybit
+DOMAIN,static.bybit.com,Bybit
+

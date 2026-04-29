@@ -1,0 +1,20 @@
+# > Trading 212 - 全球主域名
+HOST-SUFFIX, trading212.com, Trading212
+HOST-SUFFIX, trading212.io, Trading212
+HOST-SUFFIX, trading212.net, Trading212
+# > Trading 212 - 核心交易与 API 接口 (需高优先级处理)
+HOST, live.trading212.com, Trading212
+HOST, demo.trading212.com, Trading212
+HOST, api.trading212.com, Trading212
+HOST, static.trading212.com, Trading212
+# > Trading 212 - 帮助中心与社区
+HOST, helpcentre.trading212.com, Trading212
+HOST, community.trading212.com, Trading212
+HOST, docs.trading212.com, Trading212
+# > Trading 212 - 图表组件 (由 TradingView 驱动)
+# 注意：如果你已经有全局的 TradingView 规则，可以跳过此段
+HOST-SUFFIX, tradingview.com, Trading212
+HOST-KEYWORD, tradingview, Trading212
+# > 其他关联组件 (验证码与分析)
+HOST-KEYWORD, recaptcha, Trading212
+HOST-SUFFIX, google-analytics.com, Trading212

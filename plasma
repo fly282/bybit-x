@@ -1,33 +1,22 @@
-# > Plasma One - 核心主域名与官方网站
-HOST-SUFFIX, plasma-one.com, PlasmaOne
-HOST-SUFFIX, plasma.finance, PlasmaOne
-HOST-SUFFIX, plasma.io, PlasmaOne
-HOST-KEYWORD, plasma-one, PlasmaOne
+# Plasma One App 分流规则
+# 更新日期: 2026-06
+# 主要用于让 App 正常注册、登录、KYC、消费通知等
 
-# > Plasma One - 核心 API 与 银行卡/消费网关接口
-HOST, api.plasma-one.com, PlasmaOne
-HOST, card.plasma-one.com, PlasmaOne
-HOST, pay.plasma-one.com, PlasmaOne
-HOST, wallet.plasma-one.com, PlasmaOne
+# ==================== Plasma One 核心域名 ====================
+DOMAIN,plasma.to,💞 地域限制,no-resolve
+DOMAIN-SUFFIX,plasma.to,💞 地域限制,no-resolve
+DOMAIN-SUFFIX,plasma.org,💞 地域限制,no-resolve
+DOMAIN-SUFFIX,plasma.one,💞 地域限制,no-resolve
 
-# > 钱包连接与去中心化身份验证 (WalletConnect / Web3 Auth)
-HOST-SUFFIX, walletconnect.org, PlasmaOne
-HOST-SUFFIX, walletconnect.com, PlasmaOne
-HOST-SUFFIX, web3auth.io, PlasmaOne
+# ==================== 相关服务域名 ====================
+DOMAIN-SUFFIX,plasma.app,💞 地域限制,no-resolve
+DOMAIN-SUFFIX,rain.xyz,💞 地域限制,no-resolve
+DOMAIN-SUFFIX,bridge.build,💞 地域限制,no-resolve
+DOMAIN-SUFFIX,bridgebuilding.com,💞 地域限制,no-resolve
 
-# > 稳定币充提与主流链 RPC 节点 (涉及应用内转账及闪兑)
-# Arbitrum (One)
-HOST, arbitrum-mainnet.infura.io, PlasmaOne
-HOST, arb1.arbitrum.io, PlasmaOne
-# Optimism
-HOST, optimism-mainnet.infura.io, PlasmaOne
-# Solana & Base
-HOST-SUFFIX, solana.com, PlasmaOne
-HOST-SUFFIX, base.org, PlasmaOne
-
-# > 风控、人机验证与消息推送 (极重要：防止注册或登录时卡住)
-HOST-SUFFIX, arkoselabs.com, PlasmaOne
-HOST-SUFFIX, recaptcha.net, PlasmaOne
-HOST-SUFFIX, google.com, PlasmaOne
-HOST-SUFFIX, onesignal.com, PlasmaOne
-HOST-SUFFIX, Firebaseio.com, PlasmaOne
+# 常见第三方服务（KYC、推送、分析等）
+DOMAIN-SUFFIX,appsflyer.com,💞 地域限制,no-resolve
+DOMAIN-SUFFIX,app-measurement.com,💞 地域限制,no-resolve
+DOMAIN-SUFFIX,firebase.com,💞 地域限制,no-resolve
+DOMAIN-SUFFIX,googleapis.com,💞 地域限制,no-resolve
+DOMAIN-SUFFIX,onesignal.com,💞 地域限制,no-resolve

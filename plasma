@@ -1,0 +1,33 @@
+# > Plasma One - 核心主域名与官方网站
+HOST-SUFFIX, plasma-one.com, PlasmaOne
+HOST-SUFFIX, plasma.finance, PlasmaOne
+HOST-SUFFIX, plasma.io, PlasmaOne
+HOST-KEYWORD, plasma-one, PlasmaOne
+
+# > Plasma One - 核心 API 与 银行卡/消费网关接口
+HOST, api.plasma-one.com, PlasmaOne
+HOST, card.plasma-one.com, PlasmaOne
+HOST, pay.plasma-one.com, PlasmaOne
+HOST, wallet.plasma-one.com, PlasmaOne
+
+# > 钱包连接与去中心化身份验证 (WalletConnect / Web3 Auth)
+HOST-SUFFIX, walletconnect.org, PlasmaOne
+HOST-SUFFIX, walletconnect.com, PlasmaOne
+HOST-SUFFIX, web3auth.io, PlasmaOne
+
+# > 稳定币充提与主流链 RPC 节点 (涉及应用内转账及闪兑)
+# Arbitrum (One)
+HOST, arbitrum-mainnet.infura.io, PlasmaOne
+HOST, arb1.arbitrum.io, PlasmaOne
+# Optimism
+HOST, optimism-mainnet.infura.io, PlasmaOne
+# Solana & Base
+HOST-SUFFIX, solana.com, PlasmaOne
+HOST-SUFFIX, base.org, PlasmaOne
+
+# > 风控、人机验证与消息推送 (极重要：防止注册或登录时卡住)
+HOST-SUFFIX, arkoselabs.com, PlasmaOne
+HOST-SUFFIX, recaptcha.net, PlasmaOne
+HOST-SUFFIX, google.com, PlasmaOne
+HOST-SUFFIX, onesignal.com, PlasmaOne
+HOST-SUFFIX, Firebaseio.com, PlasmaOne

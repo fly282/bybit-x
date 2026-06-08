@@ -1,0 +1,40 @@
+# > Bitget Wallet - 官方网站与主域名
+HOST-SUFFIX, bitget.com, BitgetWallet
+HOST-SUFFIX, bitkeep.com, BitgetWallet
+HOST-SUFFIX, bitkeep.open, BitgetWallet
+HOST-KEYWORD, bitgetwallet, BitgetWallet
+
+# > Bitget Wallet - 核心 API 接口与行情/闪兑数据
+HOST, api.bitget.com, BitgetWallet
+HOST, api.bitkeep.top, BitgetWallet
+HOST, cloudapi.bitkeep.top, BitgetWallet
+HOST, swap.bitkeep.top, BitgetWallet
+HOST, fix.bitkeep.page, BitgetWallet
+
+# > Bitget Wallet - Web3 与 DApp 浏览器组件
+HOST-SUFFIX, bitgetstatic.com, BitgetWallet
+HOST-SUFFIX, bkapi.is, BitgetWallet
+HOST-SUFFIX, bkcode.vip, BitgetWallet
+
+# > 去中心化钱包通用连接协议 (WalletConnect)
+# 用于在电脑端或者浏览器上通过扫码连接 Bitget Wallet
+HOST-SUFFIX, walletconnect.org, BitgetWallet
+HOST-SUFFIX, walletconnect.com, BitgetWallet
+
+# > 核心公链 RPC 节点 (防止因国内直连墙掉导致资产显示不全或闪兑超时)
+# Ethereum & Layer 2 (Arbitrum / Optimism / Base)
+HOST-SUFFIX, infura.io, BitgetWallet
+HOST-SUFFIX, alchemy.com, BitgetWallet
+HOST, arb1.arbitrum.io, BitgetWallet
+HOST, mainnet.optimism.io, BitgetWallet
+# BNB Chain (BSC)
+HOST, bsc-dataseed.binance.org, BitgetWallet
+HOST-SUFFIX, bscscan.com, BitgetWallet
+# TRON (波场)
+HOST-SUFFIX, trongrid.io, BitgetWallet
+# Solana
+HOST-SUFFIX, solana.com, BitgetWallet
+
+# > 三方防风控人机验证
+HOST-SUFFIX, arkoselabs.com, BitgetWallet
+HOST-SUFFIX, recaptcha.net, BitgetWallet

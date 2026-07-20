@@ -38,4 +38,3 @@ HOST-SUFFIX, solana.com, BitgetWallet
 # > 三方防风控人机验证
 HOST-SUFFIX, arkoselabs.com, BitgetWallet
 HOST-SUFFIX, recaptcha.net, BitgetWallet
-HOST-KEYWORD, polymarket.com, polymarket

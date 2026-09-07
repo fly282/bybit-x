@@ -18,6 +18,7 @@ DOMAIN-SUFFIX,byapps.net,💞 地域限制,no-resolve
 DOMAIN-SUFFIX,byd3c3.com,💞 地域限制,no-resolve
 DOMAIN-SUFFIX,bybdc6.com,💞 地域限制,no-resolve
 DOMAIN-SUFFIX,appsflyer.com,💞 地域限制,no-resolve
+DOMAIN-SUFFIX,bybit.eu,💞 地域限制,no-resolve
 
 # IP-CIDR
 IP-CIDR,13.32.121.6/32,💞 地域限制,no-resolve
